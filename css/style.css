@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #020617;
+}
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0px;
+}
+button {
+    cursor: pointer;
+}
+a.btn-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.title > h1 {
+    padding: 14px 0;
+    margin: 0;
+}
+nav {
+    /* background: green; */
+    display: inline-flex;
+    width: 100%;
+    color: white;
+    /* position: fixed; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* background: linier-gradient(rgba(255, 255, 255, 0.123) ,rgba(255, 255, 255, 0.048)); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.123) ,rgba(255, 255, 255, 0.048));
+    background-size: cover;
+}
+nav > .container {
+    display: inline-flex;
+}
+.grub-menu {
+    /* background: blue; */
+    width: 100%;
+    text-align: right;
+}
+.grub-menu > ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+.grub-menu > ul > li {
+    padding: 6px ;
+    margin-top: 0px;
+    display: inline-block;
+}
+.cards {
+    z-index: auto;
+    padding: 10px;
+    /* transform: translateX(100%); */
+    display: inline-block;
+    background-image: linear-gradient( 140deg, #d9d9d986, #d9d9d91c);
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.profil-card > img {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    padding: 10px 0px;
+}
+.profil-card > h3 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.profil-card > span {
+    color: #9FA8BD;
+    font-size: 12px;
+    font-weight: 600;
+}
+.ls-btn-sosmed {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+}
+.ls-btn-sosmed > li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.ls-btn-sosmed > li > a > img {
+    color: white;
+}
+.btn-nv-content {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.btn-nv-content > li {
+    width: 100%;
+    height: auto;
+    padding: 8px 0px;
+}
+.btn-nv-content > li > a > button {
+    background-color: #d9d9d973;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 16px;
+    border: none;
+}
+.btn-gray {
+    background-color: #d9d9d973;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 16px;
+    border: none;
+}
+.shap1 {
+    width: 500px;
+    height: 100px;
+    background-image: radial-gradient(#d9d9d94f, #525252af);
+    border-radius: 100%;
+    margin-top: -50px;
+}
+.close-bar {
+    padding: 7px 4px;
+    text-align: right;
+}
+.close-bar > a {
+    color: white;
+    text-decoration: none;
+}
+.bar-ctn {
+    text-align: left;
+}
+.idhover {
+    display: none;
+}
+.idhover:target {
+    display: inline-block;
+    /* transform: rotateX(100%); */
+}
+
+.left-bg {
+    align-items: left;
+    align-content: last baseline;
+    text-align: left;
+}
+.center-bg {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+/* timeline */
+.timeline-vl {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.timeline-vl-content {
+    border-left: 1px solid gray;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+}
+.timeline-vl-content > .shaps {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 100%;
+    margin-left: -31px;
+    margin-top: -20px;
+}
+.timeline-vl-content > h3 {
+    padding: 0;
+    margin: 0;
+    margin-top: -20px;
+    font-size: 17px;
+    color: gray;
+}
